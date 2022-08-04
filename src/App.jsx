@@ -1,11 +1,9 @@
 import { useState } from 'react'
-import floofs from './src/assets/floofs'
-import sleps from './src/assets/slep'
-import snyks from './src/snyks'
+import floof1 from './assets/floofs/1.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
-
+    
   return (
     <div className="App">
       <div>
@@ -13,9 +11,7 @@ function App() {
       </div>
       <h1>Fellows of Infinite Rest</h1>
       <div className="card">
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <img src={floof1} className="img"/>
       </div>
       
     </div>
