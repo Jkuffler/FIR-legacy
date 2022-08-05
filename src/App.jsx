@@ -1,19 +1,25 @@
-import { useState } from 'react'
-import floof1 from './assets/floofs/1.jpg'
+// import { useState } from 'react'
+import f1 from './assets/floofs/1.jpg'
 
 function App() {
-  const [count, setCount] = useState(0)
-    
+  // const [images, setImages] = useState(false)
+  
+
+  
   return (
     <div className="App">
-      <div>
-      
-      </div>
       <h1>Fellows of Infinite Rest</h1>
-      <div className="card">
-        <img src={floof1} className="img"/>
-      </div>
+      <div className="image-container">
+        <div>
+          <img src={f1} className="floofs"/>
+        {
+      /*  <Floofs/> 
+          <Sleps/>  
+          <Snyks/>  */
+          }
+        </div>
       
+      </div>
     </div>
   )
 }
