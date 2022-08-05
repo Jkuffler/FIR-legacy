@@ -1,9 +1,9 @@
-/* #root {
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-} */
+}
 
 .App {
   width: 100%;
@@ -35,7 +35,7 @@ h2{
   height: 30px;
 }
 .floofs {
-  width: 90px;
-  height: 95px;
+  width: 290px;
+  height: 295px;
   transform: translate(0px, -5px);
 }
