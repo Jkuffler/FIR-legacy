@@ -1,1 +1,0 @@
-import allFloofs from './assets/floofs/'
