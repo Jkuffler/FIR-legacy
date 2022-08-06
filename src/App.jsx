@@ -9,8 +9,8 @@ function App() {
       <h1>Fellows of Infinite Rest</h1>
       <div className="image-container">
         <div>
-          <Floofs/> 
-        </div>
+            <Floofs /> 
+        </div>  
       </div>
     </div>
   )

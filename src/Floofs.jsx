@@ -20,17 +20,19 @@ import f18 from './assets/floofs/18.jpg'
 import f19 from './assets/floofs/19.jpg'
 import f20 from './assets/floofs/20.jpg'
 import f21 from './assets/floofs/21.jpg'
+// import InfiniteScroll from 'react-infinite-scroller';
+import { useState } from 'react'
 
 export default function Floofs() {
+// const  perPage = 1
 const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, f21]
 
   return (
-    <div className="App">
+    
       <div className="image-container">
         {
           allFloofs.map((floof) => <img className="floofs" src={floof} alt="floofin vibe" />)
         }
       </div>
-    </div>
   ) 
-}
+};

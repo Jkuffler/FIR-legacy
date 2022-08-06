@@ -17,7 +17,6 @@ h2{
 }
 .image-container{
   width: 80%;
-  margin-left: 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
@@ -35,7 +34,7 @@ h2{
   height: 30px;
 }
 .floofs {
-  width: 385px;
-  height: 395px;
-  transform: translate(0px, -5px);
+  width: 420px;
+  height: 385px;
+  transform: translate(0px, 5px);
 }
