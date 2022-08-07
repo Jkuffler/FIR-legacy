@@ -1,5 +1,5 @@
-// import { useState } from 'react'
-import f1 from './assets/floofs/1.jpg'
+import Floofs from './Floofs.jsx'
+import "bulma/sass/grid/columns.sass"
 
 function App() {
   // const [images, setImages] = useState(false)
@@ -7,18 +7,13 @@ function App() {
 
   
   return (
-    <div className="App">
-      <h1>Fellows of Infinite Rest</h1>
-      <div className="image-container">
-        <div>
-          <img src={f1} className="floofs"/>
-        {
-      /*  <Floofs/> 
-          <Sleps/>  
-          <Snyks/>  */
-          }
-        </div>
+    <div className="columns">
+      <div className="column is-one-third"><h1>Fellows of Infinite Rest</h1>
       
+      {/* Insert Menu Link options */}
+      </div>
+      <div className="column is-two-thirds">
+        <Floofs />
       </div>
     </div>
   )
