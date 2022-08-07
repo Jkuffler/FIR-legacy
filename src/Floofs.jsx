@@ -1,4 +1,6 @@
 /* future ref: export const floof1 = require("./1.jpg") */
+import "bulma/sass/elements/box.sass"
+import "bulma/sass/elements/image.sass"
 import f1 from './assets/floofs/1.jpg'
 import f2 from './assets/floofs/2.jpg'
 import f3 from './assets/floofs/3.jpg'
@@ -29,9 +31,9 @@ const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, 
 
   return (
     
-      <div className="image-container">
+      <div className="column is-two-thirds">
         {
-          allFloofs.map((floof) => <img className="floofs" src={floof} alt="floofin vibe" />)
+          allFloofs.map((floof) => <figure className="image is-4by3"><img src={floof} alt="floofin vibe" /></figure>)
         }
       </div>
   ) 

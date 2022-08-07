@@ -1,4 +1,5 @@
 import Floofs from './Floofs.jsx'
+import "bulma/sass/grid/columns.sass"
 
 function App() {
   // const [images, setImages] = useState(false)
@@ -6,12 +7,10 @@ function App() {
 
   
   return (
-    <div className="App">
-      <h1>Fellows of Infinite Rest</h1>
-      <div className="image-container">
-        <div>
-            <Floofs /> 
-        </div>  
+    <div className="columns">
+      <div className="column is-one-third"><h1>Fellows of Infinite Rest</h1></div>
+      <div className="column is-two-thirds">
+        <Floofs />
       </div>
     </div>
   )
