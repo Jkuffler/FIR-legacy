@@ -8,7 +8,10 @@ function App() {
   
   return (
     <div className="columns">
-      <div className="column is-one-third"><h1>Fellows of Infinite Rest</h1></div>
+      <div className="column is-one-third"><h1>Fellows of Infinite Rest</h1>
+      
+      {/* Insert Menu Link options */}
+      </div>
       <div className="column is-two-thirds">
         <Floofs />
       </div>
