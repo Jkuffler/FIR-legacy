@@ -1,4 +1,6 @@
 import Floofs from './Floofs.jsx'
+import Nav from './Nav.jsx'
+
 import "bulma/sass/grid/columns.sass"
 
 function App() {
@@ -7,13 +9,12 @@ function App() {
 
   
   return (
-    <div className="columns">
+    <div className="columns is-mobile">
       <div className="column is-one-third"><h1>Fellows of Infinite Rest</h1>
-      
-      {/* Insert Menu Link options */}
+      <div className="column"><Nav /></div>
       </div>
       <div className="column is-two-thirds">
-        <Floofs />
+        <Floofs/>
       </div>
     </div>
   )
