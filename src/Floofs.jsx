@@ -9,7 +9,7 @@ import f5 from './assets/floofs/5.jpg'
 import f6 from './assets/floofs/6.jpg'
 import f7 from './assets/floofs/7.jpg'
 import f8 from './assets/floofs/8.jpg'
-import f9 from './assets/floofs/9.jpg'
+// import f9 from './assets/floofs/9.jpg'
 import f10 from './assets/floofs/10.jpg'
 import f11 from './assets/floofs/11.jpg'
 import f12 from './assets/floofs/12.jpg'
@@ -27,13 +27,13 @@ import { useState } from 'react'
 
 export default function Floofs() {
 // const  perPage = 1
-const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, f21]
+const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, f21]
 
   return (
     
       <div className="column is-two-thirds">
         {
-          allFloofs.map((floof) => <figure className="image is-4by3"><img src={floof} alt="floofin vibe" /></figure>)
+          allFloofs.map((floof, index) => <figure key={index}className="image is-4by3"><div className="box"><img className="media" src={floof} alt="floofin vibe" /></div></figure>)
         }
       </div>
   ) 

@@ -3,10 +3,10 @@ import React from 'react'
 function Nav() {
   return (
     <div className='columns'>
-      <div className='column'><h3>sniff around</h3></div>
-      <div className='column'><h5>floofs</h5></div> 
-      <div className='column'><h5>snyx</h5></div>
-      <div className='column'><h5>sleps</h5></div>
+      <div className='column'><h2>sniff around</h2></div>
+      <div className='column'><h3>floofs</h3></div> 
+      <div className='column'><h3>snyx</h3></div>
+      <div className='column'><h3>sleps</h3></div>
     </div>
   )
 }
