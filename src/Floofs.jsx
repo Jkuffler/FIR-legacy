@@ -1,6 +1,7 @@
 /* future ref: export const floof1 = require("./1.jpg") */
 import "bulma/sass/elements/box.sass"
 import "bulma/sass/elements/image.sass"
+import "bulma/sass/components/card.sass"
 import f1 from './assets/floofs/1.jpg'
 import f2 from './assets/floofs/2.jpg'
 import f3 from './assets/floofs/3.jpg'
@@ -21,20 +22,19 @@ import f17 from './assets/floofs/17.jpg'
 import f18 from './assets/floofs/18.jpg'
 import f19 from './assets/floofs/19.jpg'
 import f20 from './assets/floofs/20.jpg'
-import f21 from './assets/floofs/21.jpg'
-// import InfiniteScroll from 'react-infinite-scroller';
-import { useState } from 'react'
+
 
 export default function Floofs() {
-// const  perPage = 1
-const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20, f21]
+
+
+const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20];
+
+const floofLists = allFloofs.map((floof, index) => <div className="card" key={index} > <column className="image is-4by3"><img className="" src={floof} alt="here a floof. there a floof. floofin' vibe!" /></column></div>)
+
 
   return (
-    
-      <div className="column is-two-thirds">
-        {
-          allFloofs.map((floof) => <figure className="image is-4by3"><img src={floof} alt="floofin vibe" /></figure>)
-        }
-      </div>
+    <div className="columns is-gapless is-mobile">
+      <div className="column-is-two-thirds"> {floofLists}</div>
+    </div>
   ) 
 };

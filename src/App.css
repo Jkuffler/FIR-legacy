@@ -5,3 +5,21 @@
   padding: 2rem;
   text-align: center;
 }
+body{
+  background-color: #455f40ad;
+}
+h1 {
+  color: #497a00;
+}
+
+.is-one-third {
+  background-image: url('/src/assets/background.png');
+  background-repeat: repeat;
+  background-position: right;
+}
+.is-4by3 {
+  background-image: url('/src/assets/background.png');
+  background-color: #455f40ad;
+  background-repeat: no-repeat;
+}
+
