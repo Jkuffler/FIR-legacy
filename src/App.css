@@ -1,25 +1,19 @@
-#root {
-
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 body{
   background-color: #455f40ad;
 }
 h1 {
-  color: #497a00;
+  color: #19828a;
 }
-
+.column {
+  background-color: #455f40ad;
+}
+figure {
+  padding-top: 5%;
+}
 .is-one-third {
+  position: sticky;
+  background-color: #455f40ad;
   background-image: url('/src/assets/background.png');
   background-repeat: repeat;
   background-position: right;
 }
-.is-4by3 {
-  background-image: url('/src/assets/background.png');
-  background-color: #455f40ad;
-  background-repeat: no-repeat;
-}
-

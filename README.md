@@ -11,5 +11,4 @@ It could evolve to allow users a chance to share their content as well
 /control images render to dom with default `useState(false)`
 /style Floofs
 /add remaining sections using `export default` signatures
-/develop styling theme 
-  -search for cat-silhouette bgrd
+/further develop styling theme
