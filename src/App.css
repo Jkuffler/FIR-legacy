@@ -4,7 +4,7 @@ body{
 h1 {
   color: #06a74e;
 }
-div.column {
+  div.column {
   background-color: #455f40ad;
 }
 div.is-one-third {
@@ -44,14 +44,16 @@ figure{
 }
 .columns.is-one-third {
   margin-bottom: 0;
+  background-color: #455f40ad;
+
   position:sticky;
   z-index: 1;
   top: 0;
   left: 0;
 }
-
 .columns:last-child {
   margin-bottom: 0 !important;
+  background-color: #455f40;
 }
 .columns:not(.is-desktop) {
   display: flex;
