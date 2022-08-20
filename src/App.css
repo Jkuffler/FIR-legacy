@@ -4,16 +4,36 @@ body{
 h1 {
   color: #19828a;
 }
-.column {
+div.column {
+  position: sticky;
   background-color: #455f40ad;
 }
 figure {
   padding-top: 5%;
 }
-.is-one-third {
+div.is-one-third {
+  padding-top: 22px;
+  position: -webkit-sticky;
   position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
   background-color: #455f40ad;
   background-image: url('/src/assets/background.png');
   background-repeat: repeat;
   background-position: right;
+}
+a:hover{
+  color: lime;
+}
+a:visited {
+  color: green;
+}
+a {
+  color: rgb(92, 109, 71);
+}
+img{
+  border-radius: 10%;
+  display: flex;
+  height: min-content;
 }
