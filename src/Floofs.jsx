@@ -29,7 +29,7 @@ export default function Floofs() {
 
 const allFloofs = [f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20];
 
-const floofLists = allFloofs.map((floof, index) => <div className="image" key={index} > <figure><img src={floof} alt="here a floof. there a floof. floofin' vibe!" /></figure></div>)
+const floofLists = allFloofs.map((floof, index) => <div className="image" key={index} > <figure className="is4by3 is-paddingless"><img src={floof} alt="floofin' vibe!" /></figure></div>)
 
 
   return (

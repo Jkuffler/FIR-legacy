@@ -38,8 +38,6 @@ figure{
 .columns.is-one-third {
   margin-bottom: 0;
   background-color: #455f40ad;
-  background-image: url('/src/assets/background.png');
-  background-repeat: repeat;
 }
 .columns:last-child {
   margin-bottom: 0 !important;
