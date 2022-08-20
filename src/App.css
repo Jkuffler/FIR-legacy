@@ -1,10 +1,11 @@
 body{
   background-color: #455f40ad;
+  overflow-x: hidden
 }
 h1 {
   color: #06a74e;
 }
-  div.column {
+div.column {
   background-color: #455f40ad;
 }
 div.is-one-third {
@@ -27,14 +28,9 @@ a {
 img{
   border-radius: 5%;
 }
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(1, 188, 57, 0.76);
-}
+/* img:hover {
+} */
 figure{
-  margin-block-start: .5em;
-  margin-block-end: .5em;
-  margin-inline-start: .5em;
-  margin-inline-end: .5em;
   overflow: hidden;
   max-height: 600px;
   max-width: 450px;
@@ -44,21 +40,15 @@ figure{
   background-color: #455f40ad;
   background-image: url('/src/assets/background.png');
   background-repeat: repeat;
-  background-position: right;
-  position:sticky;
-  z-index: 0;
-  top: 0;
-  left: 0;
 }
 .columns:last-child {
   margin-bottom: 0 !important;
   background-color: #455f40;
   background-image: url('/src/assets/background.png');
   background-repeat: repeat;
-  background-position: right;
 }
 .columns:not(.is-desktop) {
   display: flex;
   flex-direction: column;
-  align-items: self-end;
+  align-items: self-end; 
 }
