@@ -2,14 +2,11 @@ body{
   background-color: #455f40ad;
 }
 h1 {
-  color: #19828a;
+  color: #06a74e;
 }
 div.column {
   position: sticky;
   background-color: #455f40ad;
-}
-figure {
-  padding-top: 5%;
 }
 div.is-one-third {
   padding-top: 22px;
@@ -33,7 +30,20 @@ a {
   color: rgb(48, 83, 6);
 }
 img{
-  border-radius: 10%;
-  display: flex;
-  height: min-content;
+  border-radius: 5%;
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(1, 188, 57, 0.76);
+}
+figure{
+  margin-block-start: .5em;
+  margin-block-end: .5em;
+  margin-inline-start: .5em;
+  margin-inline-end: .5em;
+  overflow: hidden;
+  max-height: 600px;
+  max-width: 450px;
+}
+.columns.is-gapless:last-child {
+  margin-bottom: 0;
 }
