@@ -5,13 +5,11 @@ h1 {
   color: #06a74e;
 }
 div.column {
-  position: sticky;
   background-color: #455f40ad;
 }
 div.is-one-third {
-  padding-top: 22px;
-  position: -webkit-sticky;
-  position: sticky;
+  padding-top: 2em;
+  position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
@@ -44,6 +42,19 @@ figure{
   max-height: 600px;
   max-width: 450px;
 }
-.columns.is-gapless:last-child {
+.columns.is-one-third {
   margin-bottom: 0;
+  position:sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.columns:last-child {
+  margin-bottom: 0 !important;
+}
+.columns:not(.is-desktop) {
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
 }
