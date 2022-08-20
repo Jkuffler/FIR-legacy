@@ -4,12 +4,12 @@ function Nav() {
 
 
   return (
-    <div className='columns is-mobile'>
-      <div className='column'>
-        <h2>sniff around</h2>
-        <h3>floofs</h3> 
-        <h3>snyx</h3>
-        <h3>sleps</h3>
+    <div className='column'>
+      <h2>sniff around</h2>
+      <div>
+        <h3><a href='/Floofs'>floofs</a></h3> 
+        <h3><a href='/Sneex'>sneex</a></h3>
+        <h3><a href='Sleps'>sleps</a></h3>
       </div>
     </div>
   )
